@@ -4,8 +4,6 @@ import App from './App.vue'
 import { createRouter } from './router'
 import { createStore } from './store'
 
-const a, b, c
-
 export function createApp() {
   const router = createRouter()
   const store = createStore()
