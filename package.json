@@ -8,7 +8,7 @@
   },
   "author": "{{{author}}}",
   "private": true,
-  "main": "./main/index.vue",
+  "main": "./src/main/index.vue",
   "scripts": {
     "changelog": "node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "dev": "node ./service/app.js"
