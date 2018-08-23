@@ -8,7 +8,7 @@
 </template>
 
 <script>
-  import myComponentName from '../main/index'
+  import myComponentName from '../../main/index'
 
   export default {
     data () {

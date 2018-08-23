@@ -8,7 +8,7 @@
   },
   "author": "{{{author}}}",
   "private": true,
-  "main": "./src/main/index.vue",
+  "main": "./main/index.vue",
   "scripts": {
     "changelog": "node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "dev": "node ./service/app.js"
@@ -99,7 +99,7 @@
     }
   },
   "lint-staged": {
-    "./src/**/*.{js,vue}": [
+    "./main/**/*.{js,vue}": [
       "./node_modules/.bin/eslint --fix",
       "./node_modules/.bin/prettier --write",
       "git add"
